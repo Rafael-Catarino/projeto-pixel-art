@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  background-color: lightblue;
+  border: 1px solid black;
+  border-radius: 0px 0px 10px 10px;
+  height: 55px;
+  text-align: center;
+}
+
+h1 {
+  margin: 9px;
+  text-align: center;
+}
+
+label {
+  margin: 2px;
+  font-size: larger;
+}
+
+input {
+  margin: 5px;
+}
+
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  margin: 5px;
+}
+
+button {
+  border-radius: 10px;
+  margin: 5px;
+  padding: 8px;
+}
+
+.btn-clean {
+  background-color: lightcoral;
+}
+
+.btn-start-playing {
+  background-color: lightgreen;
+}
+
+.input-number {
+  margin: 10px;
+}
+
+.grid-div {
+  display: flex;
+  justify-content: center;
+}
+
+.div-c {
+  border: 1px solid rgba(0, 0, 0, 0.185);
+  width: 20px;
+  height: 20px;
+}
