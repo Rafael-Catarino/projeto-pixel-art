@@ -11,30 +11,43 @@
 </head>
 
 <body>
+  <!-- header -->
   <header>
     <h1 class="margin">Projeto Pixel Art</h1>
   </header>
-
+  <!-- main -->
   <main>
-
+    <!-- section paleta de cores -->
+    <section id="container-palette-color">
+      <div class="color select"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+    </section>
+    <!-- section input number -->
     <section class="input-number">
-      <label for="">Largura:</label>
-      <input type="range" id="grid-width" min="1" max="62">
-      <span class="span-grid-width">00</span>
+      <div id="width-div">
+        <label for="">Largura:</label>
+        <input type="range" id="grid-width" min="1" max="62">
+        <span class="span-grid-width">00</span>
+      </div>
 
-      <label for="">Altura:</label>
-      <input type="range" id="grid-height" min="1" max="35">
-      <span class="span-grid-height">00</span>
+      <div id="height-div">
+        <label for="">Altura:</label>
+        <input type="range" id="grid-height" min="1" max="19">
+        <span class="span-grid-height">00</span>
+      </div>
     </section>
-
-    <section>
+    <!-- section escolha a cor -->
+    <section id="contairner-choose-color">
       <label for="">Escolha a cor:</label>
-      <input type="color" name="" class="color">
+      <input type="color" name="" id="color-input" class="color">
     </section>
-
-    <section>
-      <button class="btn-start-playing">Iniciar</button>
-      <button class="btn-clean">Limpar</button>
+    <!-- section de botões de iniciar e limpar os pixels -->
+    <section id="container-button">
+      <button id="btn-start-playing">Iniciar</button>
+      <button id="btn-clean">Limpar</button>
     </section>
 
     <section class="grid-div">
